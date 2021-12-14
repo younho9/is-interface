@@ -1,0 +1,45 @@
+{
+  "name": "is-interface",
+  "version": "0.0.0",
+  "description": "Type Guard for interface",
+  "keywords": [
+    "typescript",
+    "ts",
+    "guard",
+    "guards",
+    "type-guard",
+    "type-guards",
+    "type",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younho9/is-interface.git"
+  },
+  "license": "MIT",
+  "author": "Younho Choo <yo+github@younho9.com>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "dependencies": {
+    "ts-extras": "0.6.0"
+  },
+  "devDependencies": {
+    "@sindresorhus/is": "4.2.0",
+    "@younho9/tsconfig": "0.1.0",
+    "ava": "3.15.0",
+    "tsd": "0.19.0",
+    "xo": "0.47.0"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  }
+}
